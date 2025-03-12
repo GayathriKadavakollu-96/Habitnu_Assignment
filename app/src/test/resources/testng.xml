@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tests for Hbitnu">
+  <listeners>
+        <listener class-name = "habitnu_assignment.ListenerClass"></listener>
+    </listeners>
+    <test name="Hbitnu TestCases">
+    <classes>
+      <class name="habitnu_assignment.AppTest"></class>
+    </classes>
+  </test> <!-- Test -->    
+</suite> <!-- Suite -->
